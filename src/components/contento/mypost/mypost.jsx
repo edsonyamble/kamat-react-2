@@ -1,5 +1,6 @@
 import React from 'react'
 import Post from './poost/post'
+import datapost from '../../filejson/datapost.json'
 function Mypost() {
 	return (
 		<div>
@@ -11,8 +12,11 @@ function Mypost() {
 				</div>
 			</div>
 			<div className='post'>
-				<Post message='hi,how are you?' />
-				<Post message="It 's Edson" />
+				<Post message='hi,how are you?' like='2' />
+				{datapost.map(item => (
+					<h1>{item.like}</h1>
+				))}
+				<Post message="It 's Edson" like='20' />
 			</div>
 		</div>
 	)

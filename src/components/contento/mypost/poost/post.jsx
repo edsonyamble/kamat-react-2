@@ -10,6 +10,7 @@ function Post(props) {
 						alt='lion'
 					/>
 					{props.message}
+					{props.like}
 				</div>
 			</div>
 		</div>

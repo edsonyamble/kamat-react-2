@@ -1,6 +1,7 @@
 import React from 'react'
 import Pro from './profile.module.css'
 import Mypost from './mypost/mypost'
+import datapost from '../filejson/datapost.json'
 function Profile() {
 	return (
 		<div className={Pro.content}>
@@ -11,7 +12,7 @@ function Profile() {
 				/>
 			</div>
 			<div>ava+ description</div>
-			<Mypost />
+			<Mypost data={datapost} />
 		</div>
 	)
 }
