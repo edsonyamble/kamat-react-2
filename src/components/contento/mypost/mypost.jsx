@@ -11,8 +11,8 @@ function Mypost() {
 				</div>
 			</div>
 			<div className='post'>
-				<Post />
-				<Post />
+				<Post message='hi,how are you?' />
+				<Post message="It 's Edson" />
 			</div>
 		</div>
 	)
