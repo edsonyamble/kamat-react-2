@@ -2,11 +2,13 @@
 	{
 		"name": "Edson",
 		"liker": "like:",
-		"like": 100
+		"like": 100,
+		"id": 1
 	},
 	{
 		"name": "Gbovo",
 		"liker": "like:",
-		"like": 50
+		"like": 50,
+		"id": 2
 	}
 ]
